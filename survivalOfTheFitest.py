@@ -11,7 +11,7 @@ survivalCutOff = 0.1
 class genome():
     def __init__(self, sb):
         self.SB = sb
-        self.C = 0
+        self.C = 0 #score
         self.ANFV = 2
     def rCreate(self):
         while len(self.SB) < tb.SBLength:
